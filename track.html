@@ -6,6 +6,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- font awsome -->
+        <script src="https://use.fontawesome.com/d4ef026438.js"></script>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <!-- custom CSS -->
@@ -25,7 +27,8 @@
             <div class="purple">purple</div>
             <div class="yellow">yellow</div>
             <div class="blue">blue links</div>
-            <hr class="hr-line"></hr>
+            <div class="text-white">text-white</div>
+            <hr class="hr-line"/>
         </div>
 
         <div class="container">
@@ -33,72 +36,203 @@
         ================== copy this code   ==================
         ====================================================== -->
 
+        <hr class="hr-line" />    
             <!-- page title  -->
-            <div class="row justify-content-between">
+            <div class="row justify-content-between blue">
                 <div class="col-md-6">
                     <h2>Track Log</h2>
                 </div>
                 <div class="col-md-6 text-md-right">Monday september 4th 2017</div>
             </div>
-            <hr class="hr-line" />
+           
 
-            <!-- track content -->
+            <!-- track log -->
             <div class="row">
-                <div class="track-log">
-                    <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Email address</label>
-                        <div class="col-sm-10">
-                            <input type="" class="form-control" id="" placeholder="name@example.com">
-                        </div>
-                    </div>
-                    <!-- /form-group  -->
+                <div class="col-sm-12">
+                    <div class="track-log">
+                        
+                        <div class="row"> <!-- .row -->
+                            
+                            <div class="form-inline col-sm-12">
 
-                    <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Project</label>
-                        <div class="col-sm-10">
+                                <div class="p-sm-3  col-md-6 col-sm-12"> <!-- project input -->
+                                    <div class="form-group row"> 
+                                        <label for="" class="col-sm-3 col-lg-2 col-form-label">Project</label>
+                                        <div class="col-sm-9 col-lg-10">
 
-                            <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                <div class="input-group-btn">
-                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       Projects
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <ul class="list-group">
-                                            <li class="list-group-item list-group-item-action active">Cras justo odio</li>
-                                            <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
-                                            <li class="list-group-item list-group-item-action">Morbi leo risus</li>
-                                            <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
-                                            <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="type project name...">
+                                                <div class="input-group-btn">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                    Projects
+                                                </button>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item list-group-item-action active">Cras justo odio Lorem ipsum dolor sit</li>
+                                                            <li class="list-group-item list-group-item-action">Cras justo odio</li>
+                                                            <li class="list-group-item list-group-item-action">Cras odio</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-secondary green-background" type="button" data-toggle="tooltip" title="Create a new project"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                                  </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.form-group  -->
+                                </div> <!-- /project input -->
+
+                                <div class="p-sm-3  col-md-6 col-sm-12"> <!-- task input -->
+                                    <div class="form-group row"> 
+                                        <label for="" class="col-sm-3 col-lg-2 col-form-label">Task</label>
+                                        <div class="col-sm-9 col-lg-10">
+
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="type task name...">
+                                                <div class="input-group-btn">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                    Tasks
+                                                </button>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item list-group-item-action active">Cras justo odio Lorem ipsum dolor sit</li>
+                                                            <li class="list-group-item list-group-item-action">Cras justo odio</li>
+                                                            <li class="list-group-item list-group-item-action">Cras odio</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-secondary green-background" type="button" data-toggle="tooltip" title="Create a new task"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                                  </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.form-group  -->
+                                </div> <!-- /task input -->
+
                             </div>
                         </div>
+                        <!-- /.row -->
+                        <div class="col-sm-12 p-sm-3 ">
+                            <div class="form-group row">
+                                <label for="" class="col-sm-3 col-md-2 col-lg-1 col-form-label">Description</label>
+                                <div class="col-sm-9  col-md-10 col-lg-11">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="brief description about what your doing..."></textarea>
+                                </div>
+                            </div>
+                        </div><!-- /track-log -->
                     </div>
-                    <!-- /form-group  -->
-                    <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Example textarea</label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div><!-- /.row -->
+
+            <div class="row justify-content-center">
+                    <div class="col-md-2 col-sm-6 col-auto">
+                        <div class="button-start  float-sm-right">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <span class="d-block">Start</span>
                         </div>
                     </div>
-                    <!-- /form-group  -->
+                    <div class="col-md-2 col-sm-6 col-auto">
+                        <div class="button-stop">
+                            <i class="fa fa-stop" aria-hidden="true"></i>
+                            <span class="d-block">Stop</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 pt-3 d-flex align-self-sm-center">
+                        <div class="track-timer mx-auto display-4">
+                            00:09:08
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 d-flex align-self-sm-end">
+                        <div class="time-started mx-auto float-sm-right" style="font-size:1.5rem">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <span>10:28am</span>
+                            <span class="d-sm-inline-block text-medium-dark" style="font-size:1rem">time started</span>
+                        </div>
+                    </div> 
+            </div><!-- /.row -->
+
+            <hr class="hr-line mt-5" />
+            <!-- My logs  -->
+            <div class="row justify-content-between blue mt-4">
+                <div class="col-md-6">
+                    <h2>My Logs</h2>
+                </div>
+                <!-- <div class="col-md-6 text-md-right">Monday september 4th 2017</div> -->
+            </div>
+            
+            <div class="textwithline mt-md-4 mb-md-2 text-medium-dark">No Client</div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Project</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Task</div>
+                    <div class="f-1-2">authentication</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Duration</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                   <div class="btn-group float-right" role="group" aria-label="Third group">
+                      <button type="button" class="btn btn-secondary yellow-background f-1-2" data-toggle="tooltip" title="Edit the track log"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                     <button type="button" class="btn btn-secondary red-background f-1-2" data-toggle="tooltip" title="Delete the track log"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                   </div>
                 </div>
             </div>
-        </div>
-
-
-
-
-
-
+            
+            <div class="textwithline mt-md-4 mb-md-2 text-medium-dark">Custom software enterprise</div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Project</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Task</div>
+                    <div class="f-1-2">authentication</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Duration</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                   <div class="btn-group float-right" role="group" aria-label="Third group">
+                      <button type="button" class="btn btn-secondary yellow-background f-1-2" data-toggle="tooltip" title="Edit the track log"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                     <button type="button" class="btn btn-secondary red-background f-1-2" data-toggle="tooltip" title="Delete the track log"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="textwithline mt-md-4 mb-md-2 text-medium-dark">Epic marketing</div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Project</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Task</div>
+                    <div class="f-1-2">authentication</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="text-medium-dark">Duration</div>
+                    <div class="f-1-2">frontend</div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                   <div class="btn-group float-right" role="group" aria-label="Third group">
+                      <button type="button" class="btn btn-secondary yellow-background f-1-2" data-toggle="tooltip" title="Edit the track log"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                     <button type="button" class="btn btn-secondary red-background f-1-2" data-toggle="tooltip" title="Delete the track log"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                   </div>
+                </div>
+            </div>
+            
+         
+            
+        </div><!-- /.container  -->
 
         <!-- ===================================================
         ========================= end  =======================
         ====================================================== -->
 
-        </div>
 
 
 
@@ -106,11 +240,13 @@
 
 
 
-        <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script>$(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+          });</script>
     </body>
 
 </html>
