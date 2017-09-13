@@ -110,7 +110,8 @@ body {
     border-color: #11698a;
 }
 
-h2{
+h2, h3{
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -122,11 +123,14 @@ h2{
 /* ==================================================
 ================== copy this code====================
 ====================== bellow ======================= */
-.modal{
-    color: #51586a;
+
+.dashboard-table thead tr th{
+    border-top: none;
+    text-transform: uppercase;
 }
-
-
+.dashboard-table tbody tr th:first-child{
+    border-top: none;
+}
 /* ===================================================
 =======================  end  ========================
 ====================================================== */
