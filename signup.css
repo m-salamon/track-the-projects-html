@@ -129,68 +129,48 @@ h2, h3{
 /* ==================================================
 ================== copy this code====================
 ====================== bellow ======================= */
-
-.dropdown-menu{
-  
-    padding: 0;
+.forgot-password{
+    color: #007bff;
+    cursor: default;
+}
+.forgot-password:hover{
+    color: #6EACE9;
+    cursor: default;
 }
 
-.fa-play, .fa-stop{
-    font-size: 2.2rem;
-}
-.button-start{
-    border-radius: .25rem;
-    width: 100px;
-    padding: 8px;
-    text-align: center;
-    background-color: #1AC98E;
-    border: 1px solid #1AC98E;
-}
-.button-start:hover, .button-start:active{
-    background-color: #15a071;
-    border-color: #128c63;
-}
-.button-stop{
-    border-radius: .25rem;
-    width: 100px;
-    padding: 8px;
-    text-align: center;
-    background-color: #E64759;
-    border: 1px solid #E64759;
-}
-.button-stop:hover, .button-stop:active{
-    background-color: #b83847;
-    border-color: #A1303C;
-}
-.track-timer{
-    /* font-size: 3rem; */
-
-}
-.time-started{
-
-}
-
-.textwithline {
+.card-outer-wrapper{
+    border: 1px solid rgba(204, 204, 204, 0.09);
+    background: rgba(255,255,255,0.7);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 6px;
     overflow: hidden;
-    text-align: center;
+    padding: 30px 40px;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 25%;
+    width: 100%;
 }
-.textwithline:before,
-.textwithline:after {
-    background-color: #434857;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+.logo-container{
+
 }
-.textwithline:before {
-    right: 0.5em;
-    margin-left: -50%;
+.image-wrapper{
+    background: url('hourglass-time-hours-sand.jpeg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
 }
-.textwithline:after {
-    left: 0.5em;
-    margin-right: -50%;
+.image-outer-wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.signup-footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #343a40; 
+    height: 50px;
 }
 /* ===================================================
 =======================  end  ========================
